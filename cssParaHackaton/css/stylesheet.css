@@ -1,0 +1,39 @@
+@font-face {
+    font-family: BiteChocolate;
+    src: url(fonts/BiteChocolate-2RGl.ttf);
+}
+@font-face {
+    font-family: LondrinaShadow;
+    src: url(fonts/LondrinaShadow-Regular.ttf);
+}
+
+body{
+    font-family: helvetica;
+    margin: 0px;
+}
+
+h1{
+    font-family: BiteChocolate;
+    font-size: 40px;
+    margin: 10px;
+    background-color: brown;
+}
+
+.topChartText{
+    font-size: 25px;
+    margin: 10px;
+    background-color: blueviolet;
+}
+
+div.topChart{
+    background-color: #eec170;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.sunflower{
+    background-color: blue;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
