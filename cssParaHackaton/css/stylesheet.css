@@ -1,0 +1,148 @@
+@font-face {
+    font-family: BiteChocolate;
+    src: url(fonts/BiteChocolate-2RGl.ttf);
+}
+@font-face {
+    font-family: AmbarPearl;
+    src: url(fonts/AmbarPearlPersonalUse-0nBz.ttf);
+}
+
+body{
+    font-family: monospace;
+    margin: 0px;
+}
+
+div.topChart{
+    background-color: #eec170;
+    padding-top: 102px;
+    text-align: center;
+    border-bottom-style: dashed;
+    border-bottom-color: #585123;
+    border-bottom-width: 5px;
+}
+
+h1{
+    font-family: BiteChocolate;
+    font-size: 40px;
+    color: #772f1a;
+    margin: 10px;
+}
+
+.topChartText{
+    font-size: 25px;
+    color: #772f1a;
+    margin: 10px;
+}
+
+.sunflower{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.middleChart{
+    margin: 0px;
+    padding: 5px;
+    background-color: #E8C07D;
+    border-bottom-style: dashed;
+    border-bottom-color: #585123;
+    border-bottom-width: 5px;
+}
+
+.pawPattern{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.5;
+    height: 40px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.presentation{
+    padding-top: 40px;
+}
+
+.pfp{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+    height: 200px;
+    padding: 2px;
+    border: 3px black solid;
+}
+
+.subtitle{
+    text-align: center;
+    font-family: AmbarPearl;
+    color: #585123;
+    font-size: 25px;
+    margin: 25px;
+}
+.hiText{
+    width: 700px;
+    text-align: center;
+    font-size: 20px;
+    margin: 25px auto 25px auto;
+}
+
+.skills{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cppImage{
+    display: block;
+    width: 140px;
+    float: right;
+    margin-right: 75px;
+}
+
+.skillTitle{
+    color: #772f1a;
+    font-size: 40px;
+    margin: 50px;
+    text-align: center;
+    font-family: monospace;
+    font-weight: lighter;
+}
+
+.skillText{
+    font-size: 20px;
+    width: 500px;
+    margin-left: 75px;
+    margin-top: 75px;
+}
+
+.contactMe{
+    margin: 0px;
+}
+
+.contactText{
+    text-align: center;
+    font-size: 18px;
+    margin: 25px;
+}
+
+.mediaIcons{
+    margin: 25px;
+    text-align: center;
+}
+
+.mediaIconsSize{
+    height: 70px;
+}
+
+div.bottomChart{
+    margin: 0px;
+    background-color: #ecc8af;
+}
+
+.copyright{
+    text-align: center;
+    font-size: 17px;
+    padding: 10px;
+    margin: 0px;
+}
