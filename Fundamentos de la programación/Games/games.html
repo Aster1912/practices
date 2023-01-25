@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>GameGalaxy</title>
+        <style>
+            h1{
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+                margin: 70px auto;
+            }
+            form{
+                font-family: Arial, Helvetica, sans-serif;
+                margin: 50px auto;
+                width: 500px;
+                background-color: #f1ffc4;
+                border: 1px solid;
+                border-color: #5d5b6a;
+            }
+            .form{
+                margin: 10px;
+            }
+        </style>
+    </head>
+    <body bgcolor="#dab894">
+        <h1>.::GameGalaxy::.</h1>
+        <form action="post">
+            <div class="form">
+            <p>Escoja que juego(s) comprar</p>
+            <input type="radio" name="opc" id="opc" value="1">
+            <label for="eldenRing">Elden Ring</label>
+            <br><br>
+            <input type="radio" name="opc" id="opc" value="2">
+            <label for="minecraft">Minecraft</label>
+            <br><br>
+            <input type="radio" name="opc" id="opc" value="3">
+            <label for="rainbowSixSage">Rainbow Six Sage</label>
+            <br><br>
+            <input type="radio" name="opc" id="opc" value="4">
+            <label for="doomEternal">Doom Eternal</label>
+            <br><br>
+            <input type="radio" name="opc" id="opc" value="5">
+            <label for="theLegendOfZeldaOcarinaOfTime">The Legend of Zelda: Ocarina of Time</label>
+            <br><br>
+            <input type="radio" name="opc" id="ocp" value="6">
+            <label for="theLastOfUs2">The Last Of Us 2</label>
+            <br><br>
+            <input type="radio" name="opc" id="opc" value="7">
+            <label for="salir">Salir</label>
+            <br><br>
+            <input type="button" value="Escoger" onclick="comprar()">
+            </div>
+        </form>
+    </body>
+</html>
+<script src="gamesCompra.js"></script>

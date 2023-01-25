@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Armado de Computadoras">
+        <meta name="keywords" content="Compus Hardware compuNET Armado_de_computadoras">
+        <meta name="author" content="Victor Manuel Martinez Hernandez">
+        <title>.::COMPUNET::.</title>
+        <style>
+            form{
+                margin-left: 400px;
+                margin-right: 400px;
+            }
+            h1{
+                text-align: center;
+            }
+            fieldset{
+                background-color: darkkhaki;
+            }
+        </style>
+    </head>
+    <body bgcolor="khaki">
+        <h1>.::COMPUNET::.</h1>
+        <form method="post" action="">
+            <fieldset>
+                <legend>Motherboards</legend>
+                <input type="radio" name="mbs" value="asus">
+                <label for="mbs">Asus</label>
+                <br><br>
+                <input type="radio" name="mbs" value="gigabyte" checked>
+                <label for="mbs">Gigabyte</label>
+                <br><br>
+                <input type="radio" name="mbs" value="msi">
+                <label for="mbs">Msi</label>
+            </fieldset>
+            <br>
+            <label for="ups">Fuente de poder:</label>
+            <select name="ups">
+            <option value="400">400w</option>
+            <option value="600">600w</option>
+            <option value="800" selected>800w</option>
+            <option value="1200">1200w</option>
+            </select>
+            <br><br>
+            <fieldset>
+                <legend>Procesadores</legend>
+                <label for="">Marca</label>
+                <select name="procs">
+                    <option value="intel">INTEL</option>
+                    <option value="amd">AMD</option>
+                </select>
+                <br><br>
+                <input type="radio" name="ghz" value="2.1">
+                <label for="ghz">2.1Ghz</label>
+                <br><br>
+                <input type="radio" name="ghz" value="2.4" checked>
+                <label for="ghz">2.4Ghz</label>
+                <br><br>
+                <input type="radio" name="ghz" value="3.2">
+                <label for="ghz">3.2Ghz</label>
+                <br><br>
+                <input type="radio" name="ghz" value="4.1">
+                <label for="ghz">4.1Ghz</label>
+            </fieldset>
+            <br>
+            <label for="">Memoria RAM</label>
+            <input type="number" name="ram" min="8" max="64" step="8" value="8">
+            <br><br>
+            <fieldset>
+                <legend>Periféricos</legend>
+                <input type="checkbox" name="tarj" value="1">
+                <label for="tarj">Lector de Tarjetas</label>
+                <br><br>
+                <input type="checkbox" name="dvd" value="2">
+                <label for="dvd">DVD's</label>
+                <br><br>
+                <input type="checkbox" name="ms" value="3" checked>
+                <label for="ms">Mouse</label>
+                <br><br>
+                <input type="checkbox" name="kb" value="4" checked>
+                <label for="kb">Keyboard</label>
+            </fieldset>
+            <br>
+            <label for="nom">Orden a nombre de:</label>
+            <input type="text" name="nom" required>
+            <br><br>
+            <label for="">Comentarios</label><br>
+            <textarea name="coms" cols="15" rows="5" required></textarea>
+            <br><br>
+            <input type="checkbox" name="conf" value="yes" required>
+            <label for="conf">Acepto los términos y condiciones del servicio</label>
+            <br><br>
+            <input type="reset" value="Comenzar de Nuevo">
+            <input type="submit" name="ok" value="Guardar Pedido">
+        </form>
+    </body>
+</html>

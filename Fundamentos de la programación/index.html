@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Mi primer página web uwu">
+        <meta name="keywords" content="html web mi_pagina_web_uwu">
+        <meta name="author" content="Asteri">
+        <style>
+            textarea{
+                resize:none;
+            }
+        </style>
+    </head>
+    <body bgcolor="#d2962d">
+        <!-- Formulario de contacto -->
+        <form method="post" action="">
+            <fieldset>
+                <legend>Datos Personales</legend>
+                <label for="nom">Nombre:</label>
+                <input type="text" name="nom" placeholder="Nombre completo" required>
+                <br><br>
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" name="correo" placeholder="nombre@dominio.extensión" required>
+                <br><br>
+                <label for="pass">Contraseña:</label>
+                <input type="password" name="pass" required>
+                <br><br>
+                <label for="edad">Edad:</label>
+                <input type="number" name="edad" min="1" max="100">
+                <br><br>
+                <label for="fnac">Fecha de Nacimineto:</label>
+                <input type="date" name="fnac">
+                <br><br>
+                <label for="color">Color Favorito:</label>
+                <input type="color" name="color">
+            </fieldset>
+            <fieldset>
+                <legend>Hobbies</legend>
+                <input type="checkbox" name="gym">
+                <label for="gym">Ir al Gimnasio</label>
+                <br><br>
+                <input type="checkbox" name="comer">
+                <label for="comer">Comer</label>
+                <br><br>
+                <input type="checkbox" name="dormir">
+                <label for="dormir">Dormir</label>
+                <br><br>
+                <input type="checkbox" name="vj" value="gaming">
+                <label for="vj">Jugar Videojuegos</label>
+                <br><br>
+                <input type="checkbox" name="uff">
+                <label for="uff">Noviar</label>
+                <br><br>
+            </fieldset>
+            <fieldset>
+                <legend>Ciudad</legend>
+                <input type="radio" name="cuidad" value="1" checked>
+                <label for="cuidad">El Paso</label>
+                <br><br>
+                <input type="radio" name="cuidad" value="2">
+                <label for="cuidad">Gómez Palacios</label>
+                <br><br>
+                <input type="radio" name="cuidad" value="3">
+                <label for="cuidad">Lerdo</label>
+                <br><br>
+                <input type="radio" name="cuidad" value="4">
+                <label for="cuidad">Matamoros</label>
+                <br><br>
+                <input type="radio" name="cuidad" value="5">
+                <label for="cuidad">Torreón</label>
+                <br><br>
+                <label for="est">Estado:</label>
+                <select name="est">
+                    <optgroup label="México">
+                        <option value="Dur">Durango</option>
+                        <option value="Coah" selected>Coahuila</option>
+                    </optgroup>
+                    <optgroup label="USA">
+                        <option value="Tx">Texas</option>
+                    </optgroup>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Comentarios</legend>
+                <textarea name="comentarios" cols="30" rows="10" placeholder="Inserta tus comentarios"></textarea>
+            </fieldset>
+            <input type="reset" value="Reiniciar">
+            <input type="submit" name="ok" value="Agregar">
+        </form>
+    </body>
+</html>

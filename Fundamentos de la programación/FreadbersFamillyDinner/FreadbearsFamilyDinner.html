@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Formulario para pedir una pizza">
+        <meta name="keywords" content="pizza pizzeria">
+        <meta name="author" content="Henry Emily & William Afton">
+        <title>Freadbear's Family Diner Menú</title>
+        <style>
+            textarea{
+                resize:none;
+            }
+            body{
+                width: 600px;
+                margin: 25px auto;
+            }
+            h1{
+                text-align: center;
+                font-size: 45px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>.: Freadbear's Family Dinner :.</h1>
+        <form method="post" action="">
+            <label for="especialidades">Especialidades:</label>
+            <select name="especialidades">
+                <option value="pepperoni" id="pepperoni" selected>Pepperoni Pizza</option>
+                <option value="cheese" id="cheese">Cheese Pizza</option>
+                <option value="olive" id="olive">Olive Pizza</option>
+                <option value="hawaiian" id="hawaiian">Hawaiian Pizza</option>
+                <option value="special" id="special">Special Freddy's Pizza</option>
+            </select>
+            <fieldset>
+                <legend>Tamaño</legend>
+                <input type="radio" name="size" value="rebanada" id="size">
+                <label for="size">Rebanada $20.00</label>
+                <br><br>
+                <input type="radio" name="size" value="individual" id="size">
+                <label for="size">Individual $60.00</label>
+                <br><br>
+                <input type="radio" name="size" value="mediana" id="size" checked>
+                <label for="size">Mediana $70.00</label>
+                <br><br>
+                <input type="radio" name="size" value="grande" id="size">
+                <label for="size">Grande $90.00</label>
+            </fieldset>
+            <fieldset>
+                <legend>Extras</legend>
+                <input type="checkbox" name="refrescog" id="refrescog">
+                <label for="refrescog">Refresco 2lts $30.00</label>
+                <br><br>
+                <input type="checkbox" name="refrescoch" id="refrescoch">
+                <label for="refrescoch">Refresco 600ml $15.00</label>
+                <br><br>
+                <input type="checkbox" name="jugog" id="jugog">
+                <label for="jugog">Jugo 600ml $15.00</label>
+                <br><br>
+                <input type="checkbox" name="jugoch" id="jugoch">
+                <label for="jugoch">jugo 300ml $10.00</label>
+                <br><br>
+                <input type="checkbox" name="papas" id="papas">
+                <label for="refresco">Papas $25.00</label>
+                <br><br>
+                <input type="checkbox" name="helado" id="helado">
+                <label for="helado">Healdo $30.00</label>
+                <br><br>
+            </fieldset>
+            <fieldset>
+                <legend>Datos Del Cliente</legend>
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre Completo" required>
+                <br><br>
+                <label for="telefono">Teléfono:</label>
+                <input type="text" name="telefono" id="telefono" placeholder="(123) 456-78-90" pattern="\([0-9]{3}\) [0-9]{3}-[0-9]{2}-[0-9]{2}" required>
+                <br><br>
+                <label for="direccion">Dirección:</label><br>
+                <textarea name="direccion" id="direccion" cols="40" rows="10" placeholder="Calle y Número" required></textarea>
+                <br><br>
+            </fieldset>
+            <br>
+            <input type="reset" value="Reiniciar">
+            <input type="submit" name="enviado" value="Finalizar Pedido">
+        </form>
+    </body>
+</html>
